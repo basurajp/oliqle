@@ -19,14 +19,14 @@ const PasswordRequirements = () => {
 };
 
 const PasswordResetForm = () => (
-  <section className="px-20 max-md:px-5">
+  <div className="px-20 max-md:px-5">
     <div className="flex gap-5 max-md:flex-col max-md:gap-0">
       <div className="flex flex-col w-[33%] max-md:ml-0 max-md:w-full">
-        <header>
+        <div>
           <h1 className="text-4xl font-bold tracking-wide capitalize mt-36 text-slate-700 max-md:mt-10">
             Set password
           </h1>
-        </header>
+        </div>
         <p className="mt-2 text-base font-semibold leading-6 text-gray-500">
           Please reset your password here.
         </p>
@@ -73,16 +73,16 @@ const PasswordResetForm = () => (
           </button>
         </form>
       </div>
-      <aside className="flex flex-col ml-5 w-[67%] max-md:ml-0 max-md:w-full">
+      <div className="flex flex-col ml-5 w-[67%] max-md:ml-0 max-md:w-full">
         <img
           loading="lazy"
           src={setpassword}
           alt="A visual representation of password security"
           className="self-stretch my-auto aspect-square max-md:mt-10 max-md:max-w-full h-[80%]"
         />
-      </aside>
+      </div>
     </div>
-  </section>
+  </div>
 );
 
 export default PasswordResetForm;

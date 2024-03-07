@@ -3,7 +3,7 @@ import error from "../assets/images/error.png";
 
 const ErrorMessage = () => {
   return (
-    <section className="flex flex-col items-center h-full px-20 py-16 text-center text-white bg-zinc-800 sm:px-5">
+    <div className="flex flex-col items-center h-full px-20 py-16 text-center text-white bg-zinc-800 sm:px-5">
       <img
         loading="lazy"
         src={error}
@@ -17,7 +17,7 @@ const ErrorMessage = () => {
         Your account is not registered with us, please click on the below link
         to register!
       </p>
-    </section>
+    </div>
   );
 };
 

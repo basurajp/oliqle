@@ -3,8 +3,8 @@ import sucess from "../assets/images/sucess.png";
 
 const RegistrationSuccess = () => {
   return (
-    <section className="flex items-center justify-center h-full px-16 text-base text-center text-white bg-zinc-800 sm:px-5">
-      <article className="flex flex-col mt-20 max-w-full w-[682px] sm:mt-10">
+    <div className="flex items-center justify-center h-full px-16 text-base text-center text-white bg-zinc-800 sm:px-5">
+      <div className="flex flex-col mt-20 max-w-full w-[682px] sm:mt-10">
         <img
           loading="lazy"
           src={sucess}
@@ -26,8 +26,8 @@ const RegistrationSuccess = () => {
             login
           </a>
         </div>
-      </article>
-    </section>
+      </div>
+    </div>
   );
 };
 
